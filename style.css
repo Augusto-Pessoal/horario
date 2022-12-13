@@ -29,6 +29,23 @@ body{
     }
 }
 
+@media (max-width: 800px) and (orientation: landscape) {
+    body{
+        width:100%;
+    }
+    #hora{
+        margin: 0px;
+        padding: 0px ;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        font-size: 100px;
+    }
+}
+
 @media (min-width: 801px) and (max-width: 1200px) {
     body{
         width:100%;
