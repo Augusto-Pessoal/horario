@@ -1,3 +1,12 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-weight: bolder;
+    font-size: 22px;
+    font-family: 'Roboto';
+    letter-spacing: .01rem;
+}
+
 @font-face {
     font-family: 'Roboto';
     src: url('RobotoMono-Bold.ttf') format('truetype');
@@ -60,17 +69,11 @@
     
 }
 
-body{
-    margin: 0px;
-    padding: 0px;
-    font-weight: bolder;
-    font-size: 22px;
-    font-family: 'Roboto';
-}
-
 li{
     list-style: none;
-    padding: 16px 0px 14px 1px;
+    position: relative;
+    top: 6%;
+    left: 0%;
 }
 
 a{
@@ -90,7 +93,6 @@ p{
     background-color: #ffffff;
     width: 300px;
     height: 300px;
-    margin: 50%;
     padding: 0px ;
     margin: 0;
     position: absolute;
