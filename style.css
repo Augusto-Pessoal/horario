@@ -1,11 +1,3 @@
-body{
-    overflow: hidden;
-    margin: 0px;
-    padding: 0px;
-    font-weight: bolder;
-    font-size: 22px;
-    font-family: 'Roboto';
-}
 @font-face {
     font-family: 'Roboto';
     src: url('RobotoMono-Bold.ttf') format('truetype');
@@ -13,7 +5,11 @@ body{
 
 @media (max-width: 800px) {
     body{
+        margin: 0px;
+        padding: 0px;
+        font-weight: bolder;
         font-size: 10px;
+        font-family: 'Roboto';
     }
     #hora{
         font-size: 10px;
@@ -69,6 +65,14 @@ body{
         transform: translate(-50%, -50%);
         font-size: 250px;
     }
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-weight: bolder;
+    font-size: 22px;
+    font-family: 'Roboto';
 }
 
 p{
