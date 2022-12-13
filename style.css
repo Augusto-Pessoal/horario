@@ -15,6 +15,10 @@
         transform: translate(-50%, -50%);
         font-size: 50px;
     }
+    p{
+        padding: 0px;
+        margin: 2px 0px 0px 2px;
+    }
 }
 
 @media (max-width: 800px) and (orientation: landscape) {
@@ -28,6 +32,10 @@
         margin-right: -50%;
         transform: translate(-50%, -50%);
         font-size: 100px;
+    }
+    p{
+        padding: 0px;
+        margin: 2px 0px 0px 5px;
     }
 }
 
@@ -43,6 +51,10 @@
         transform: translate(-50%, -50%);
         font-size: 100px;
     }
+    p{
+        padding: 0px;
+        margin: 2px 0px 0px 5px;
+    }
 }
 
 @media (min-width: 1201px) {
@@ -57,6 +69,10 @@
         transform: translate(-50%, -50%);
         font-size: 250px;
     }
+    p{
+        padding: 0px;
+        margin: 2px 0px 0px 5px;
+    }
 }
 
 body{
@@ -65,11 +81,6 @@ body{
     font-weight: bolder;
     font-size: 22px;
     font-family: 'Roboto';
-}
-
-p{
-    padding: 0px;
-    margin: 2px 0px 0px 5px;
 }
 
 li{
