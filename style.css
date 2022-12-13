@@ -6,15 +6,10 @@ html{
 body{
     margin: 0px;
     padding: 0px;
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 22px;
-    font-family: 'Roboto';
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     letter-spacing: .01rem;
-}
-
-@font-face {
-    font-family: 'Roboto';
-    src: url('RobotoMono-Bold.ttf') format('truetype');
 }
 
 @media (max-width: 800px) {
@@ -78,7 +73,7 @@ li{
     list-style: none;
     position: relative;
     top: 6%;
-    left: 0%;
+    left: 5%;
 }
 
 a{
