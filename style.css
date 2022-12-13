@@ -12,6 +12,9 @@ body{
 }
 
 @media (max-width: 800px) {
+    body{
+        font-size: 10px;
+    }
     #hora{
         font-size: 10px;
         margin: 0px;
