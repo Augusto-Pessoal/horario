@@ -4,14 +4,19 @@ body{
     padding: 0px;
     font-weight: bolder;
     font-size: 25px;
+    font-family: 'Roboto';
 }
 @font-face {
     font-family: 'Roboto';
     src: url('RobotoMono-Bold.ttf') format('truetype');
 }
 
-@media (max-width: 560px) {
-    .hora{
+@media (max-width: 900px) {
+    body{
+        width:100%;
+    }
+    #hora{
+        font-size: 10px;
         margin: 0px;
         padding: 0px ;
         margin: 0;
@@ -20,8 +25,24 @@ body{
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%);
-        font-size: 50px;
-        font-family: 'Roboto';
+        font-size: 100px;
+    }
+}
+
+@media (min-width: 901px) {
+    body{
+        width:100%;
+    }
+    #hora{
+        margin: 0px;
+        padding: 0px ;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        font-size: 250px;
     }
 }
 
@@ -42,20 +63,6 @@ a{
     display: inline-flex;
     text-decoration: none;
     color: black;
-}
-
-
-#hora{
-    margin: 0px;
-    padding: 0px ;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    font-size: 250px;
-    font-family: 'Roboto';
 }
 
 #selector{
