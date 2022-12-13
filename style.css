@@ -11,7 +11,7 @@ body{
     src: url('RobotoMono-Bold.ttf') format('truetype');
 }
 
-@media (max-width: 900px) {
+@media (max-width: 800px) {
     body{
         width:100%;
     }
@@ -25,11 +25,28 @@ body{
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%);
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1200px) {
+    body{
+        width:100%;
+    }
+    #hora{
+        margin: 0px;
+        padding: 0px ;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
         font-size: 100px;
     }
 }
 
-@media (min-width: 901px) {
+@media (min-width: 1201px) {
     body{
         width:100%;
     }
