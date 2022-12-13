@@ -1,0 +1,101 @@
+body{
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('RobotoMono-Bold.ttf') format('truetype');
+}
+
+@media (max-width: 560px) {
+    .profile-img {
+    width: 100px;
+    height: 100px;
+    bottom: 60px;
+    }
+}
+
+p{
+    padding: 0px;
+    margin: 3px;
+}
+
+li{
+    list-style: none;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+a{
+    padding: 0px;
+    margin: 0px;
+    display: inline-flex;
+    text-decoration: none;
+    color: black;
+}
+
+
+#hora{
+    margin: 0px;
+    padding: 0px ;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 250px;
+    font-family: 'Roboto';
+}
+
+#selector{
+    background-color: #ffffff;
+    width: 300px;
+    height: 300px;
+    margin: 50%;
+    padding: 0px ;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px 5px #707070;
+}
+
+.square{
+    position: relative;
+    align-items: inline;
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+}
+
+#bp{
+    background-image: linear-gradient(160deg, #ffffff 0%, #000000 100%);
+}
+
+#ab{
+    background-image: linear-gradient(160deg, #66D4EA 0%, #ffffff 100%);
+}
+
+#bv{
+    background-image: linear-gradient(160deg, #ffffff 0%, #B2FFB4 100%);
+}
+
+#pb{
+    background-image: linear-gradient(160deg, #000000 0%, #ffffff 100%);
+}
+
+#voltar{
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid black;
+    background-color: #ffffff;
+}
