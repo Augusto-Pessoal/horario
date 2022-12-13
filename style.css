@@ -3,7 +3,7 @@ body{
     margin: 0px;
     padding: 0px;
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 22px;
     font-family: 'Roboto';
 }
 @font-face {
@@ -70,13 +70,12 @@ body{
 
 p{
     padding: 0px;
-    margin: 3px;
+    margin: 2px 0px 0px 5px;
 }
 
 li{
     list-style: none;
-    padding-top: 10px;
-    padding-left: 15px;
+    padding: 16px 0px 14px 1px;
 }
 
 a{
