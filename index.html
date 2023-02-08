@@ -9,7 +9,7 @@
 </head>
 <body>
     <div id="selector">
-        <li>
+        <li id="itens">
             <ol>
                 <a href="f_b_l_p.html">
                 <div id="bp" class="square"></div>
@@ -39,5 +39,11 @@
             </ol>
         </li>
     </div>
+    <script>
+        let navigation = document.querySelector('#selector');
+        navigation.onclick = function(){
+                navigation.classList.toggle('active')
+        }
+    </script>
 </body>
 </html>
