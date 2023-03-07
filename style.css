@@ -69,6 +69,10 @@ p{
     background-image: linear-gradient(160deg, #ffffff 0%, #B2FFB4 100%);
 }
 
+#pb{
+    background-image: linear-gradient(160deg, #000000 0%, #ffffff 100%);
+}
+
 #no{
     background-image: linear-gradient(160deg, #191919 0%, #ffffff 100%);
 }
