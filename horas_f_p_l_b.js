@@ -1,4 +1,4 @@
-function timep()
+function time_1()
         {
         today=new Date();
         var h=today.getHours();
@@ -8,5 +8,5 @@ function timep()
         m = ( m < 10 ? "0" : "" ) + m;
         s = ( s < 10 ? "0" : "" ) + s;
         document.getElementById('txt').innerHTML=h+":"+m+":".fontcolor('#4E5155')+s.fontcolor('#4E5155'); 
-        setTimeout('timep()',500);
+        setTimeout('time_1()',500);
         }
