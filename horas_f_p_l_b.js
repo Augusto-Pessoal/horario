@@ -1,4 +1,4 @@
-function time()
+function timep()
         {
         today=new Date();
         var h=today.getHours();
