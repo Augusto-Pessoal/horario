@@ -8,5 +8,5 @@ function timep()
         m = ( m < 10 ? "0" : "" ) + m;
         s = ( s < 10 ? "0" : "" ) + s;
         document.getElementById('txt').innerHTML=h+":"+m+":".fontcolor('#4E5155')+s.fontcolor('#4E5155'); 
-        setTimeout('time()',500);
+        setTimeout('timep()',500);
         }
